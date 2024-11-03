@@ -1,0 +1,23 @@
+.custom-rounded {
+    border-radius: 15px;
+}
+
+.cert {
+    display: flex;
+    justify-content: center;
+}
+.custom-bg2 {
+    background-color: #718355;
+    color: #e9f5db;
+}
+.custom-bg1 {
+    color: #718355;
+    background-color: #cfe1b9;
+}
+.custom-bg2 {
+    background-color: #;
+}
+.custom-btn {
+    background-color: #e9f5db;
+
+}

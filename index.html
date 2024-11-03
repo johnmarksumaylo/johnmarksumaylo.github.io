@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/custom/styles.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-bg2">
+        <div class="container">
+            <a class="navbar-brand" href="#home">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aboutme" class="nav-link"><b>About Me</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#certificates" class="nav-link"><b>Certificates</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><b>Contact</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end navbar-->
+
+    <!-- Home Section -->
+    <div class="container-fluid custom-bg1 mt-5 pt-5" id="home">
+        <h1 class="text-center"><b>John Mark A. Sumaylo</b></h1>
+        <h2 class="text-center"><b>BSIT student at Caraga State University</b></h2><br>
+        <img src="assets/img/indexbg.jpg" alt="Background Image" class="img-fluid pb-5">
+    </div>
+
+    <!-- About Me Section -->
+    <section id="aboutme" class="pt-5 custom-bg2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>About Me</h2>
+                    <p>I am John Mark A. Sumaylo and I am currently studying
+                        Bachelor of Science in Information Technology at
+                        Caraga State University, one of the top schools in the Philippines.
+                        I am a 3rd-year student and I reside in Butuan City.
+                        I have completed courses in SQL, HTML, and CSS.</p>
+                    <p>Outside of studying, I enjoy watching horror movies and playing Dota 2.</p>
+                    <h2><b>Educational Background:</b></h2>
+                    <ul class="text-start">
+                        <li><b>Butuan Elementary School</b></li>
+                        <li><b>Agusan National High School (Junior High)</b></li>
+                        <li><b>Agusan National High School - STEM (Senior High)</b></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end aboutme-->
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="pt-4 pb-5 custom-bg1">
+        <div class="container">
+            <h2 class="mb-4 text-center"><b>My Certificates</b></h2>
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-4 mb-3 text-center">
+                    <img src="assets/img/sqlcert.jpg" alt="SQL Certificate" class="img-fluid custom-rounded">
+                </div>
+                <div class="col-6 col-md-4 mb-3 text-center">
+                    <img src="assets/img/htmlcert.jpg" alt="HTML Certificate" class="img-fluid custom-rounded">
+                </div>
+                <div class="col-6 col-md-4 mb-3 text-center">
+                    <img src="assets/img/csscert.jpg" alt="CSS Certificate" class="img-fluid custom-rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end certificates-->
+
+    <!-- Contact Section -->
+    <div class="card text-center custom-bg2" id="contact">
+        <div class="card-header">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="card-body">
+            <a href="https://www.facebook.com/standin.naeuri?mibextid=ZbWKwL" target="_blank" class="btn custom-btn mt-3">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <p class="mt-3"><b>Cellphone Number: 09631283574</b></p>
+            <p><b>Email: johnmark.sumaylo@carsu.edu.ph</b></p>
+        </div>
+    </div>
+    <!--end contact-->
+
+    <script src="vendor/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
